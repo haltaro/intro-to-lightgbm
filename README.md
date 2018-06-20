@@ -6,10 +6,6 @@
 
 初学者を対象とするため，用語の厳密さよりもわかりやすさを重視した．
 
-# レポジトリ
-
-[haltaro/intro-to-lightgbm - GitHub](https://github.com/haltaro/intro-to-lightgbm)
-
 # [make_data.ipynb](https://github.com/haltaro/intro-to-lightgbm/blob/master/20180616.make_data.ipynb)
 
 データ加工を行う自分用のNotebook．Bostonデータは，`sklearn`から直接ダウンロードできるが，より実務に近い使い方をしてもらうため，一旦csvファイルに加工した．また，回帰問題だけでなく識別問題にも触れてもらいたいということで`seaborn`から`titanic`をcsvファイルとして保存した．カテゴリカル変数は，その対応方法も体験して欲しかったので敢えてそのまま残している[^1]．
